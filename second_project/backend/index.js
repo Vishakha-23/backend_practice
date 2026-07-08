@@ -8,7 +8,7 @@ app.get('/',(req,res)=>{
     res.send("This is first Full Stack Project.");
 })
 
-app.get('/jokes',(req,res)=>{
+app.get('/api/jokes',(req,res)=>{
     const jokes = [
         {
             id : 1,
